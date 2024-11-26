@@ -4,7 +4,7 @@ class Employee:
         self.name = name
         self.age = age
         self.doj = doj
-        self.createdOn = datetime.now().strftime("%d-%m-%Y")
+        self.createdOn = datetime.now().strftime("%dd-%mm-%yyyy")
         self.isActive = isActive
     def display(self):
         print("--- Employee Details ---")
